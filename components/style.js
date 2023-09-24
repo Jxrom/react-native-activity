@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     backgroundColor: "black", // Set the background color to black
+    padding: 20,
   },
   title: {
     fontSize: 24,
@@ -17,14 +18,7 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     color: "white", // Set the font color to white
   },
-  barChartTitle: {
-    fontSize: 24,
-    margin: 10,
-    marginLeft: 10,
-    fontWeight: "bold",
-    color: "white", // Set the font color to white
-  },
-  lineChartTitle: {
+  chartDateTitle: {
     fontSize: 24,
     margin: 10,
     marginLeft: 10,
@@ -45,6 +39,6 @@ export const styles = StyleSheet.create({
     height: 40,
   },
   chartTitles: {
-    margin: 5,
+    marginLeft: 5,
   },
 });

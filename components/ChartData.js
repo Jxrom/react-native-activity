@@ -1,56 +1,46 @@
 export const chartData = [
   {
-    name: "School Expenses",
+    name: "School",
     population: 45,
-    color: "#00A8CC", // Marine blue color
+    color: "#FFD700", // Gold color
     legendFontColor: "#7F7F7F",
     legendFontSize: 15,
   },
   {
     name: "Food",
     population: 28,
-    color: "#00C3A0", // Marine blue color
+    color: "#FFA500", // Orange color (a shade of gold)
     legendFontColor: "#7F7F7F",
     legendFontSize: 15,
   },
   {
     name: "Savings",
     population: 80,
-    color: "#00E5E2", // Marine blue color
+    color: "#FFC0CB", // Pink color (another shade of gold)
     legendFontColor: "#7F7F7F",
     legendFontSize: 15,
   },
   {
-    name: "Transportation",
+    name: "Transport",
     population: 99,
-    color: "#02F2D2", // Marine blue color
+    color: "#FF4500", // Red-Orange color (another shade of gold)
     legendFontColor: "#7F7F7F",
     legendFontSize: 15,
   },
   {
     name: "Other",
     population: 20,
-    color: "#0077B6", // Marine blue color
+    color: "#FF8C00", // Dark Orange color (another shade of gold)
     legendFontColor: "#7F7F7F",
     legendFontSize: 15,
   },
 ];
 
 export const barChartData = {
-  labels: [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ],
+  labels: ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"],
   datasets: [
     {
       data: [20, 45, 28, 80, 99, 43, 30],
-      color: (opacity = 1) => `rgba(134, 65, 244, ${opacity})`, // optional
-      strokeWidth: 2, // optional
     },
   ],
 };
